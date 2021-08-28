@@ -1,7 +1,9 @@
 @media only screen and (max-width: 1440px) {
   .home .home-text {
-    padding-top: 350px;
-    padding-left: 100px;
+    padding-top: 100px;
+  }
+  .home .home-text h1 {
+    font-size: 80px;
   }
   #contact .contact-form {
     padding: 70px 250px;
@@ -27,8 +29,7 @@
 
 @media only screen and (max-width: 1240px) {
   .home .home-text {
-    padding-top: 300px;
-    padding-left: 100px;
+    padding-top: 100px;
   }
   .home .home-text p {
     width: 420px;
@@ -41,7 +42,7 @@
   .home .home-text h1 {
     color: #3d2514;
     font-family: 'AlfaSlab';
-    font-size: 90px;
+    font-size: 70px;
     text-shadow: 5px 5px white;
   }
   .home .home-text span {
@@ -139,18 +140,12 @@
   .home {
     padding: 0;
   }
-  .home .home-text {
-    padding-bottom: 100px;
-    padding-top: 200px;
-    padding-left: 100px;
-    padding-right: 150px;
-  }
   .home .home-text p {
     width: 260px;
     font-size: 15px;
   }
   .home .home-text h1 {
-    font-size: 68px;
+    font-size: 60px;
     text-shadow: 5px 5px white;
   }
   .home .home-text span {
@@ -216,11 +211,15 @@
     text-align: center;
   }
   .home {
+    margin: auto;
+    text-align: center;
     padding: 0;
   }
   .home .home-text {
+    margin: auto;
+    text-align: center;
     padding-top: 150px;
-    padding-left: 40px;
+    padding-left: 0px;
     padding-bottom: 100px;
   }
   .home .home-text p {
@@ -228,7 +227,7 @@
     font-size: 15px;
   }
   .home .home-text h1 {
-    font-size: 55px;
+    font-size: 75px;
     text-shadow: 5px 5px white;
   }
   .home .home-text span {
@@ -236,6 +235,9 @@
     color: #3d2514;
     font-family: 'AlfaSlab';
     text-shadow: 5px 5px white;
+  }
+  .home .burger-image {
+    display: none;
   }
   .menu {
     padding: 10px;
@@ -318,6 +320,9 @@
   .home .home-text p {
     width: 270px;
     font-size: 15px;
+  }
+  .home .home-text h1 {
+    font-size: 60px;
   }
   .home .burger-image {
     display: none;

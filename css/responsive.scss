@@ -1,8 +1,10 @@
 @media only screen and (max-width: 1440px) {
     .home {
         .home-text {
-            padding-top: 350px;
-            padding-left: 100px;
+            padding-top: 100px;
+            h1 {
+                font-size: 80px;
+            }
         }
     }
     #contact {
@@ -40,8 +42,7 @@
 @media only screen and (max-width: 1240px) {
     .home {
         .home-text {
-            padding-top: 300px;
-            padding-left: 100px;
+            padding-top: 100px;
             p {
                 width: 420px;
                 border: 2px dashed #3d2514;
@@ -53,7 +54,7 @@
             h1 {
                 color: #3d2514;
                 font-family: 'AlfaSlab';
-                font-size: 90px;
+                font-size: 70px;
                 text-shadow: 5px 5px white;
             }
             span {
@@ -169,16 +170,12 @@
     .home {
         padding: 0;
         .home-text {
-            padding-bottom: 100px;
-            padding-top: 200px;
-            padding-left: 100px;
-            padding-right: 150px;
             p {
                 width: 260px;
                 font-size: 15px;
             }
             h1 {
-                font-size: 68px;
+                font-size: 60px;
                 text-shadow: 5px 5px white;
             }
             span {
@@ -256,17 +253,21 @@
         }
     }
     .home {
+        margin: auto;
+        text-align: center;
         padding: 0;
         .home-text {
+            margin: auto;
+            text-align: center;
             padding-top: 150px;
-            padding-left: 40px;
+            padding-left: 0px;
             padding-bottom: 100px;
             p {
                 width: 270px;
                 font-size: 15px;
             }
             h1 {
-                font-size: 55px;
+                font-size: 75px;
                 text-shadow: 5px 5px white;
             }
             span {
@@ -275,6 +276,9 @@
                 font-family: 'AlfaSlab';
                 text-shadow: 5px 5px white;
             }
+        }
+        .burger-image {
+            display: none;
         }
     }
     .menu {
@@ -362,6 +366,9 @@
             p {
                 width: 270px;
                 font-size: 15px;
+            }
+            h1 {
+                font-size: 60px;
             }
         }
         .burger-image {
